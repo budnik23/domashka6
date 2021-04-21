@@ -8,7 +8,7 @@
 body{
     background: #000000;
     color:#ECF5FD;
-    width: 100vw;
+    width: 90vw;
 }
 .header {
     display: flex;
@@ -215,31 +215,66 @@ li {
 .wrapper-dushboard__queue-table{
     display: flex;
     justify-content: space-around;
-}
-
-
-.wrapper-dushboard__color{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around  
-   
-}
-
-.wrapper-block {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center;  */
-
-}
-
-
-.wrapper-dushboard__queue-table{
     font-family: Open Sans;
     font-size: 11px;
     letter-spacing: 1.7px;
     color: #8DABC4;
 }
 
+
+.wrapper-dushboard--color{
+    display: flex;
+    position: relative;
+    /* justify-content: space-around   */
+   
+}
+
+.wrapper-block {
+    display: block;
+    margin-top: 15px;
+    /* flex-direction: column; */
+   
+
+}
+
+
+
+.wrapper-dushboard__statistics--retreat1 {
+    font-size: 13px;
+    position: absolute;
+    padding-bottom: 15px;
+    left: 58px;
+ }
+
+ .wrapper-dushboard__statistics--retreat2 {
+    font-size: 13px;
+    position: absolute;
+    padding-bottom: 15px;
+    left: 207px;
+ }
+
+ .wrapper-dushboard__statistics--retreat3 {
+    font-size: 13px;
+    position: absolute;
+    padding-bottom: 15px;
+    left: 333px;
+ }
+
+ .wrapper-dushboard__statistics--retreat4 {
+    font-size: 13px;
+    position: absolute;
+    padding-bottom: 15px;
+    left: 496px;
+ }
+
+ .wrapper-dushboard__statistics--retreat5 {
+    font-size: 13px;
+    position: relative;
+    padding-bottom: 15px;
+    right: -648px;
+ }
+
+ 
 
 
 
@@ -252,3 +287,4 @@ li {
     font-size: 20px;
     margin: 10px 0px 0px 20px ;
 }
+
